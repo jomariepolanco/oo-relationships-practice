@@ -40,5 +40,21 @@ oil = Ingredient.new("oil", 70)
 cake_place = Bakery.new(sugar, cake)
 brownie_yum = Bakery.new(chocolate, brownie)
 cupcake_palace = Bakery.new(frosting, cake)
+
+
+########## IMDB
+movie1 = Movie.new("The Joker")
+movie2 = Movie.new("Taxi")
+movie3 = Movie.new("The Notebook")
+
+char1 = Character.new("billy", "Rachel")
+char2 = Character.new("jack", "matt")
+char3 = Character.new("jane", "doe")
+
+mc1 = MovieCast.new(char1, movie1)
+mc2 = MovieCast.new(char2, movie2)
+mc3 = MovieCast.new(char1, movie3)
+mc4 = MovieCast.new(char3, movie1)
+
 binding.pry
 0
