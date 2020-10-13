@@ -14,7 +14,6 @@ class MovieCast
         @@all 
     end
 
-
 end #end of cast class
 
 #belongs to movie and characters

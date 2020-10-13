@@ -47,14 +47,23 @@ movie1 = Movie.new("The Joker")
 movie2 = Movie.new("Taxi")
 movie3 = Movie.new("The Notebook")
 
-char1 = Character.new("billy", "Rachel")
-char2 = Character.new("jack", "matt")
-char3 = Character.new("jane", "doe")
+actor1 = Actor.new("Rachel")
+actor2 = Actor.new("matt")
+actor3 = Actor.new("doe")
+
+char1 = Character.new("billy", actor1)
+char2 = Character.new("jack", actor2)
+char3 = Character.new("jane", actor3)
+char4 = Character.new("estivez", actor1)
+char5 = Character.new("gonzo", actor2)
 
 mc1 = MovieCast.new(char1, movie1)
 mc2 = MovieCast.new(char2, movie2)
 mc3 = MovieCast.new(char1, movie3)
 mc4 = MovieCast.new(char3, movie1)
+mc5 = MovieCast.new(char5, movie1)
+
+
 
 binding.pry
 0
